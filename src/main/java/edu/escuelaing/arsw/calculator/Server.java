@@ -50,14 +50,13 @@ public class Server {
                         outputLine = "Tangente de " + inputLine + " = " + Math.tan(Double.parseDouble(inputLine));
                     else
                         outputLine = "Operacion invalida";
-                        
+
                     // Resultados
                     out.println(outputLine);
                 } catch (Exception e) {
                     throw new Exception("Formato invalido");
                 }
             }
-
         }
 
         out.close();
