@@ -1,12 +1,12 @@
-# Calcuator
+# Networking
 
-Calculator es un programa que permite hallar la media y la desviación estandar con ayuda de LinkedList 
+Networking es un programa que implementa la definicion de Sockets y servidores web por medio de un puerto especifico: 35000
 
 ### Conteo de horas
 
-* Horas trabajadas: 5
-* Lineas de código: 317
-* Loc/h: 63.4
+* Horas trabajadas: 8
+* Lineas de código: 570
+* Loc/h: 71.25
 
 ### Prerequisitos
 Se recomienda contar con las siguientes versiones instaladas:
@@ -21,12 +21,12 @@ Para uso del proyecto requerimos clonar este repositorio. Siga los pasos:
 
 1. Clonamos el repositorio con ayuda de git
 ```
-git clone https://github.com/JohannCepeda16/ARSW-Lab2.git
+git clone https://github.com/JohannCepeda16/ARSW-Lab3.git
 ```
 
 2. Accedemos a la carpeta donde hemos clonado
 ```
-cd ARSW-Lab2
+cd ARSW-Lab3
 ```
 
 3. Compilamos nuestro proyecto para generar el target
@@ -44,7 +44,7 @@ Si queremos ejecutar las pruebas de nuestro proyecto debemos ubicarnos en la rai
 ```
 mvn test
 ```
-![test](https://github.com/JohannCepeda16/ARSW-Lab2/blob/main/resources/Test.PNG)
+![test](https://github.com/JohannCepeda16/ARSW-Lab3/blob/main/resources/Test.PNG)
 
 
 ## Programa hecho con
@@ -62,14 +62,17 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.tx
 
 ## Diseño
 
-Para mas información del diseño del proyecto puede ver el siguiente [documento](https://github.com/JohannCepeda16/ARSW-Lab2/blob/main/resources/model.pdf)
+Para mas información del diseño del proyecto puede ver el siguiente [documento](https://github.com/JohannCepeda16/ARSW-Lab3/blob/main/resources/model.pdf)
 
 ## Report de pruebas
-Para mas informacion de las pruebas del proyecto, siga el siguente [enlace](https://github.com/JohannCepeda16/ARSW-Lab2/blob/main/resources/TestReportpdf.pdf)
+Para mas informacion de las pruebas del proyecto, siga el siguente [enlace](https://github.com/JohannCepeda16/ARSW-Lab3/blob/main/resources/TestReportpdf.pdf)
 
 ## JavaDoc
 
-La documentación del proyecto la puede econtrar siguiendo este  [enlace](https://github.com/JohannCepeda16/ARSW-Lab2/tree/main/src/site/apidocs)
+La documentación del proyecto la puede econtrar siguiendo este  [enlace](https://github.com/JohannCepeda16/ARSW-Lab3/tree/main/src/site/apidocs) o lo generamos con el siguiente comando 
+```
+mvn javadoc:javadooc
+```
 
 
 
