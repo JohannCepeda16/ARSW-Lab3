@@ -7,6 +7,10 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+/**
+ * Implementacion servidor para escuchar puerto 35000
+ * @author Johann Cepeda
+ */
 public class Server {
 
     public static void main(String[] args) throws IOException {

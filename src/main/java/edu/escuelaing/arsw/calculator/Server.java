@@ -7,8 +7,17 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+/**
+ * Calculadora de seno, coseno y tangente
+ * @author Johann Cepeda
+ */
 public class Server {
 
+    /**
+     * Metodo principal de la clase
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
         ServerSocket serverSocket = null;
         try {

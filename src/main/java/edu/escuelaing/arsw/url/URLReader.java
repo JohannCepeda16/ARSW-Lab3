@@ -3,6 +3,10 @@ package edu.escuelaing.arsw.url;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+/**
+ * Lector de URL para captar informacion
+ * @author Johann Cepeda
+ */
 public class URLReader {
 
     public static void main(String... args) throws MalformedURLException {

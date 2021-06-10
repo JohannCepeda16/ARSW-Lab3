@@ -7,8 +7,17 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
+/**
+ * SErvidor cliente para el uso de la calculadora
+ * @author Johann Cepeda
+ */
 public class Client {
 
+    /**
+     * Metodo principal de la clase
+     * @param args
+     * @throws IOException
+     */
     public static void main(String... args) throws IOException {
         Socket echoSocket = null;
         PrintWriter out = null;
